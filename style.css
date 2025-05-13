@@ -1,0 +1,79 @@
+html{
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 99, 127);
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFFFFF;
+    height: 30vh;
+    width: 60vw;
+    margin: auto;
+    border-radius: 4%;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.buttons {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#iniciar,
+#pausar,
+#zerar {
+    cursor: pointer;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão Iniciar */
+#iniciar {
+    background-color: #28a745;
+    color: white;
+}
+
+#iniciar:hover {
+    background-color: #218838;
+}
+
+/* Botão Pausar */
+#pausar {
+    background-color: #e5ad05;
+    color: white;
+}
+
+#pausar:hover {
+    background-color: #e0a800;
+}
+
+/* Botão Zerar */
+#zerar {
+    background-color: #dc3545;
+    color: white;
+}
+
+#zerar:hover {
+    background-color: #c82333;
+}
